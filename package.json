@@ -41,7 +41,8 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "lodash": "^4.3.0",
+    "immutable": "^3.7.6",
+    "lodash": "^3.10.1",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-redux": "^4.4.0",
