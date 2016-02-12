@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 
-import { createStore, renderDevTools } from '../utils/devTools';
+import { createStore, DevTools } from '../utils/devTools';
 
 import FriendListApp from './FriendListApp';
 // import * as reducers from '../reducers';
@@ -17,11 +17,9 @@ export default class App extends Component {
     return (
 			<div>
 				<Provider store={store}>
-					{/*{() => <FriendListApp /> }*/}
-					<FriendListApp />
+						<FriendListApp />
 				</Provider>
-
-				{renderDevTools(store)}
+				{/*<DevTools />*/}
 			</div>
     );
   }
